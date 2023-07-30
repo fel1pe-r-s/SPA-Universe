@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="./src/css/style.css" />
-		<script src="./src/js/main.js" async></script>
+		<script src="./src/js/main.js" type="module" async></script>
 		<script
 			src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"
 			async
@@ -12,11 +12,13 @@
 
 		<title>Static Template</title>
 	</head>
-	<body>
-		<img src="./src/assets/vector.svg" alt="Logo" id="logo">
-		<a href="/" onclick="route()">Home</a>
-		<a href="/universe" onclick="route()">O Universo</a>
-		<a href="/exploration" onclick="route()">Exploração</a>
+	<body >
+		<nav class="menu">
+			<img src="./src/assets/vector.svg" alt="Logo" id="logo">
+		<a href="/" id="home" onclick="route()">Home</a>
+		<a href="/universe" id="universe" onclick="route()">O Universo</a>
+		<a href="/exploration" id="exploration" onclick="route()">Exploração</a>
+		</nav>
 		<div id="app"></div>
 		<div id="perfil">
 			<a
