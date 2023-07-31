@@ -1,6 +1,6 @@
 # SPA Universe
 
-A ideia agora é desenvolver um aaplicação aplicando o conceito basico do SPA
+A ideia agora é desenvolver um aplicação aplicando o conceito básico do SPA
 O que será abordado nesse desafio:
 
 - Conceitos de SPA;
